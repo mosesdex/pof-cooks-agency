@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>POF Cook's Agency — Research Report &amp; Implementation Playbook</title>
+<meta name="description" content="Deep research report and implementation playbook for launching an on-demand cook staffing agency inside the Pot of Food app across South-South Nigeria — Benin City, Warri, Asaba, and Yenagoa. Market analysis, labor costing, worker protection, anti-poaching strategy, Nigerian legal compliance, and app build plan.">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23047857'/%3E%3Cpath d='M25 46h50v8a25 25 0 0 1-50 0v-8zm5-10c0-4 3-8 8-8 2-6 8-10 13-10s11 4 13 10c5 0 8 4 8 8v4H30v-4z' fill='%23fff'/%3E%3C/svg%3E">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="#top">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11h18v2a9 9 0 0 1-18 0v-2z"/><path d="M7 9c0-1.5 1-3 3-3 .5-2 2.5-3.5 4-3.5S17 4 17.5 6c2 0 3 1.5 3 3"/></svg>
+      </span>
+      <span>POF Cook's Agency<small>Research &amp; Playbook</small></span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primaryNav">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" width="22" height="22"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+    </button>
+    <nav id="primaryNav" class="primary-nav" aria-label="Section navigation">
+      <a href="#summary">Summary</a>
+      <a href="#market">Market</a>
+      <a href="#model">Business Model</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#protection">Cook Protection</a>
+      <a href="#antipoaching">Anti-Poaching</a>
+      <a href="#legal">Legal</a>
+      <a href="#app">App Playbook</a>
+      <a href="#rollout">Rollout</a>
+      <a href="#risks">Risks</a>
+      <a href="#sources">Sources</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============================ HERO ============================ -->
+<section class="hero" id="top">
+  <div class="container">
+    <span class="hero-kicker">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+      Adversarially fact-checked deep research · July 2026
+    </span>
+    <h1>The Cook's Agency Playbook for Pot&nbsp;of&nbsp;Food</h1>
+    <p class="lede">
+      A complete, evidence-based blueprint for launching an on-demand cook staffing service inside the
+      POF app, dispatching professional cooks to homes, businesses, and events across
+      <strong>Benin City, Warri, Asaba, and Yenagoa</strong> on per-day bookings and monthly retainers.
+      Covering market gaps, labor costing, customer-abuse safeguards, anti-poaching defenses,
+      Nigerian legal compliance, and the full app build plan.
+    </p>
+    <div class="hero-ctas">
+      <a class="btn btn-primary" href="#summary">Read the findings</a>
+      <a class="btn btn-ghost" href="#app">Jump to the app playbook</a>
+    </div>
+    <div class="hero-stats" role="list" aria-label="Research statistics">
+      <div class="stat-card" role="listitem"><div class="num">26</div><div class="lbl">Sources fetched &amp; analyzed</div></div>
+      <div class="stat-card" role="listitem"><div class="num">122</div><div class="lbl">Claims extracted</div></div>
+      <div class="stat-card" role="listitem"><div class="num">22</div><div class="lbl">Claims verified (3-vote check)</div></div>
+      <div class="stat-card" role="listitem"><div class="num">4</div><div class="lbl">Target cities, South-South Nigeria</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ METHODOLOGY ============================ -->
+<section class="block" id="method">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-num">Methodology</span>
+      <h2>How this research was produced</h2>
+      <p>108 research agents ran a five-phase pipeline. Every key claim below carries an evidence badge showing how far it survived scrutiny.</p>
+    </div>
+    <div class="method-strip">
+      <div class="method-step"><div class="m-num">Phase 1</div><h4>Scope</h4><p>Question decomposed into 6 research angles</p></div>
+      <div class="method-step"><div class="m-num">Phase 2</div><h4>Search</h4><p>Parallel web searches per angle</p></div>
+      <div class="method-step"><div class="m-num">Phase 3</div><h4>Fetch</h4><p>26 sources read, 122 claims extracted</p></div>
+      <div class="method-step"><div class="m-num">Phase 4</div><h4>Verify</h4><p>Top 25 claims, 3 adversarial votes each</p></div>
+      <div class="method-step"><div class="m-num">Phase 5</div><h4>Synthesize</h4><p>22 confirmed, 3 refuted, report merged</p></div>
+    </div>
+    <div class="legend">
+      <span><span class="badge badge-verified">Verified</span> survived a 3-vote adversarial fact-check against the primary source</span>
+      <span><span class="badge badge-reported">Reported</span> extracted from a source but not independently re-verified</span>
+      <span><span class="badge badge-refuted">Refuted</span> failed verification; do not rely on it</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ EXECUTIVE SUMMARY ============================ -->
+<section class="block alt" id="summary">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-num">Findings</span>
+      <h2>Executive summary: five findings that shape the business</h2>
+      <p>The employ-and-dispatch cook agency is a proven model, the South-South is genuinely underserved, and the instincts behind POF's plan are validated by both industry practice and peer-reviewed research.</p>
+    </div>
+    <div class="grid cols-2">
+      <div class="card">
+        <h3><span class="icon-chip" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a15 15 0 0 1 0 20a15 15 0 0 1 0-20z"/><path d="M2 12h20"/></svg></span>The market gap is real</h3>
+        <p>Every serious competitor (iKooK, Chef4Me, Kimolar, Workmate) concentrates on Lagos, Abuja, and Port Harcourt. None has meaningful supply in Benin City, Warri, Asaba, or Yenagoa. iKooK lists exactly one chef in Edo State. <span class="badge badge-verified">Verified</span></p>
+      </div>
+      <div class="card">
+        <h3><span class="icon-chip" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></span>Pricing benchmarks exist</h3>
+        <p>Per-day chef hire in Nigeria runs ₦25,000–₦200,000 by seniority; freelance event cooks earn ₦30,000–₦100,000 per event; household cooks earn ₦60,000–₦220,000 monthly. A defensible South-South rate card can be built directly from these numbers. <span class="badge badge-verified">Verified</span></p>
+      </div>
+      <div class="card">
+        <h3><span class="icon-chip" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>Scope-lock protects cooks</h3>
+        <p>Locking guest count and food quantity <em>before</em> the job, treating it as a minimum guarantee, and billing overages in full is established catering-industry practice — exactly the abuse-prevention system POF envisioned. <span class="badge badge-verified">Verified</span></p>
+      </div>
+      <div class="card">
+        <h3><span class="icon-chip" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></span>Value bundling beats policing</h3>
+        <p>Peer-reviewed marketplace economics confirms POF's anti-poaching instinct: contracts are only a backstop; the winning strategy is bundling ingredient sourcing, replacement guarantees, escrow, and insurance so a poached cook alone delivers less than the agency does. <span class="badge badge-verified">Verified</span></p>
+      </div>
+      <div class="card">
+        <h3><span class="icon-chip" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></span>There is a legal gate first</h3>
+        <p>Employing workers and supplying them to third parties makes POF a <strong>licensed labour contractor</strong> under the Nigerian Labour Act. A Recruiter's Licence (₦200,000, 2-year validity), NSITF, pension, and written cook contracts are required before revenue. <span class="badge badge-verified">Verified</span></p>
+      </div>
+      <div class="card">
+        <h3><span class="icon-chip" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></span>The bottom line</h3>
+        <p>Launch legally (licence first), price on the two-axis grid (cook tier × household size × frequency), lock scope in the app before dispatch, and make the POF bundle irreplaceable. Budget ₦2M–₦5.5M compliance setup and target 25–40% gross margin.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ MARKET ============================ -->
+<section class="block" id="market">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-num">Competitive Landscape</span>
+      <h2>Market demand &amp; competitor landscape</h2>
+      <p>Nigeria has a functioning private-chef economy, but it is Lagos-centric, opaque on pricing, and structurally different from POF's employ-and-dispatch model.</p>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <caption>Competitor comparison: who is doing what, and where</caption>
+        <thead>
+          <tr><th scope="col">Player</th><th scope="col">Model</th><th scope="col">Pricing</th><th scope="col">South-South presence</th><th scope="col">Evidence</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>iKooK</strong> (ikook.co.uk/ng)</td>
+            <td>Marketplace — customers browse chef menus and book online</td>
+            <td><span class="money">₦6,000–₦25,000</span> per person per menu</td>
+            <td>One chef listed in Edo State; supply heavily Lagos-concentrated (5 of 8 featured chefs)</td>
+            <td><span class="badge badge-verified">Verified 3-0</span></td>
+          </tr>
+          <tr>
+            <td><strong>Chef4Me</strong></td>
+            <td>"Full-stack" marketplace — one-off events, weekly meal prep, short/long-term hire; vets chefs with background checks, training, food-safety certs, and supervised trials</td>
+            <td>Tiered; targets middle-class households</td>
+            <td>Lagos-centered; nationwide expansion only planned</td>
+            <td><span class="badge badge-reported">Reported</span></td>
+          </tr>
+          <tr>
+            <td><strong>Kimolar</strong></td>
+            <td>Agency-style private chef service with paid pre-booking consultations</td>
+            <td>See full rate card in <a href="#pricing">Section 04</a></td>
+            <td>Lagos &amp; Abuja only</td>
+            <td><span class="badge badge-verified">Verified 3-0</span></td>
+          </tr>
+          <tr>
+            <td><strong>Workmate</strong></td>
+            <td>Recruitment / placement: sources, screens, and reference-checks candidates whom <em>the client</em> employs directly</td>
+            <td>Placement fees; premium placements command ₦400k–₦500k/month salaries</td>
+            <td>Lagos, Abuja, Port Harcourt, Kano — none of POF's four cities listed</td>
+            <td><span class="badge badge-verified">Verified 3-0</span></td>
+          </tr>
+          <tr>
+            <td><strong>Dominion Consulting</strong></td>
+            <td>Domestic-staff placement; chefs bundled with nannies, drivers, housekeepers</td>
+            <td>Opaque — contact-form only</td>
+            <td>Claim of Warri / Benin City operations <strong>failed verification (0-3)</strong></td>
+            <td><span class="badge badge-refuted">Refuted</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="grid cols-2">
+      <div class="card">
+        <h3>Four market takeaways</h3>
+        <ul>
+          <li><strong>Employ-and-dispatch is rare in Nigeria.</strong> Incumbents are either marketplaces (iKooK, Chef4Me) or match-and-place recruiters (Workmate) where the client becomes the employer. POF keeping cooks on its own payroll follows the international staffing-industry template. <span class="badge badge-verified">Verified</span></li>
+          <li><strong>Pricing opacity is the norm.</strong> Domestic-staffing incumbents hide prices behind contact forms; transparent in-app pricing is a genuine differentiator. <span class="badge badge-reported">Reported</span></li>
+          <li><strong>The market is bigger than the elite.</strong> Chef4Me explicitly targets middle-class households with tiered pricing. <span class="badge badge-reported">Reported</span></li>
+          <li><strong>City wage dynamics favor POF's cost base.</strong> Lagos pays 20–40% above other cities; South-South premium demand is oil-driven (oil-camp catering in Port Harcourt/Warri pays ₦250k–₦500k/month). General-market cook wages in POF's cities sit below Lagos benchmarks. <span class="badge badge-reported">Reported</span></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>What this means for POF</h3>
+        <p>POF enters as the <strong>first employ-and-dispatch cook agency purpose-built for the South-South</strong>, with three structural advantages over incumbents:</p>
+        <ul>
+          <li><strong>Lower labor cost</strong> than Lagos players, with premium pockets (oil-adjacent Warri demand) available for upselling.</li>
+          <li><strong>Transparent app pricing</strong> against contact-form incumbents.</li>
+          <li><strong>Existing POF food-delivery brand and user base</strong> in-region, so cook-hire launches into a warm audience rather than cold.</li>
+        </ul>
+        <p>Caution: the refuted Dominion claim cuts both ways: less incumbent competition than searches implied, but also less independently validated demand. Run cheap demand tests before scaling the pool (see <a href="#risks">Risks</a>).</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ BUSINESS MODEL ============================ -->
+<section class="block alt" id="model">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-num">Structure</span>
+      <h2>The business model — agency as employer of record</h2>
+      <p>The structural template comes from the global staffing industry: the agency, not the client, is the legal employer of the assigned workers. <span class="badge badge-verified">Verified · American Staffing Association</span></p>
+    </div>
+    <div class="grid cols-3">
+      <div class="card">
+        <h3>POF (the agency) owns</h3>
+        <ul>
+          <li>Employment contracts, wages, and payroll taxes</li>
+          <li>Recruitment, vetting, and training of the cook pool</li>
+          <li>Conduct standards, discipline, and replacement</li>
+          <li>Statutory obligations — NSITF, pension, PAYE</li>
+          <li>Dispatch, scheduling, and quality control</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>The customer owns</h3>
+        <ul>
+          <li>Day-to-day supervision of the work being done</li>
+          <li>A safe worksite (kitchen, utilities, access)</li>
+          <li>Accurate scope declaration — guest count, food quantity, hours</li>
+          <li>Payment through the app, including approved overages</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Why this beats a marketplace</h3>
+        <ul>
+          <li>POF controls quality — cooks are trained employees, not loose freelancers</li>
+          <li>Customers get a replacement guarantee, not a no-show risk</li>
+          <li>Cooks get stable income, statutory protections, and career tiers</li>
+          <li>The employment relationship is itself an anti-poaching moat (<a href="#antipoaching">Section 06</a>)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="callout">
+      <h4>Service lines at launch</h4>
+      <p><strong>Home day-cook</strong> (one cook, one day, family meals) · <strong>Event cooking</strong> (teams of 2–5 cooks for weddings, parties, corporate functions) · <strong>Business/canteen staffing</strong> (monthly, per-cook) · <strong>Monthly household retainers</strong> (2×/week up to full-time). Customers choose per-day or monthly commercial terms — the two billing modes POF planned from the start.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ PRICING ============================ -->
+<section class="block" id="pricing">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-num">Economics</span>
+      <h2>Labor costing &amp; the pricing engine</h2>
+      <p>Charge customers for cook time × number of cooks, then add transport, statutory load, and margin. Every number below is a 2025–26 Nigerian benchmark.</p>
+    </div>
+
+    <h3>What cooks earn (POF's cost side)</h3>
+    <div class="table-wrap">
+      <table>
+        <caption>Nigerian cook &amp; chef wage benchmarks, 2025–2026</caption>
+        <thead><tr><th scope="col">Tier</th><th scope="col">Monthly (employed)</th><th scope="col">Per-day / per-event</th><th scope="col">Evidence</th></tr></thead>
+        <tbody>
+          <tr><td>Entry-level cook / commis</td><td class="money">₦60,000–₦120,000</td><td>—</td><td><span class="badge badge-verified">Verified</span></td></tr>
+          <tr><td>Mid-range private household chef</td><td class="money">₦100,000–₦220,000</td><td>—</td><td><span class="badge badge-verified">Verified</span></td></tr>
+          <tr><td>High-net-worth / expatriate household chef</td><td class="money">₦200,000–₦500,000</td><td>—</td><td><span class="badge badge-verified">Verified</span></td></tr>
+          <tr><td>Freelance / contract event chef</td><td>—</td><td class="money">₦30,000–₦100,000 per event</td><td><span class="badge badge-verified">Verified</span></td></tr>
+          <tr><td>Overall average chef salary</td><td class="money">₦80,000–₦250,000</td><td>—</td><td><span class="badge badge-verified">Verified</span></td></tr>
+          <tr><td>Premium placements (Banana Island-class)</td><td class="money">₦400,000–₦500,000</td><td>—</td><td><span class="badge badge-verified">Verified</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="callout warn">
+      <h4>Data-quality warning</h4>
+      <p>Glassdoor and PayScale Nigeria chef figures rest on tiny, stale samples (6–27 profiles, 2022–2024), and pre-devaluation Mywage data (₦28k–₦100k/month, 2021) was <strong>refuted</strong> as a usable 2025–26 benchmark. Anchor on the verified Profolio / Kimolar / Workmate figures above and validate with a local wage survey before finalizing the rate card.</p>
+    </div>
+
+    <h3>What customers pay competitors (POF's price ceiling)</h3>
+    <div class="table-wrap">
+      <table>
+        <caption>Kimolar (Lagos/Abuja) retail rates (verified 3-0)</caption>
+        <thead><tr><th scope="col">Product</th><th scope="col">Rate</th></tr></thead>
+        <tbody>
+          <tr><td>Master Chef, per day</td><td class="money">₦200,000/day</td></tr>
+          <tr><td>Senior Chef, per day</td><td class="money">₦80,000/day</td></tr>
+          <tr><td>Junior Chef, per day</td><td class="money">₦50,000/day</td></tr>
+          <tr><td>Kitchen Assistant, per day</td><td class="money">₦25,000/day</td></tr>
+          <tr><td>Junior Chef / Home Cook, monthly</td><td class="money">from ₦150,000/month</td></tr>
+          <tr><td>Senior Chef, monthly</td><td class="money">₦160,000–₦750,000/month</td></tr>
+          <tr><td>Professional / Master Chef, monthly (family of 1–3 up to 11–15; 2×/week to full-time)</td><td class="money">₦500,000–₦1,900,000/month</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Kimolar's monthly grid scales on <strong>two axes (chef tier × household size × visit frequency)</strong>, the exact template for POF's pricing engine. iKooK's per-person model (₦6,000–₦25,000/head) is the alternative lens for event pricing. <span class="badge badge-verified">Verified</span></p>
+
+    <h3>The costing formula</h3>
+    <div class="formula" role="img" aria-label="Booking price formula: day rate by tier times number of cooks times number of days, plus zone transport surcharge, plus overtime at 1.5 times on weekdays and 2 times on Sundays and holidays, plus statutory load, plus overhead and margin">
+Booking price = (day_rate[tier] × num_cooks × num_days)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ transport_surcharge(zone)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ overtime(hours_over × 1.5 | sunday_holiday × 2.0)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ statutory_load (NSITF 1% · pension · PAYE)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ overhead_and_margin (target 25–40% gross)
+    </div>
+    <div class="grid cols-2">
+      <div class="card">
+        <h3>Cost inputs you must not forget</h3>
+        <ul>
+          <li><strong>Transport:</strong> allowances run ₦15,000–₦60,000/month per worker. Price it as a separate zone-based line item: Kimolar applies location surcharges; Gary's Catering bills distance-based fuel fees. <span class="badge badge-reported">Reported</span></li>
+          <li><strong>Benefits load:</strong> meals, insurance, and service charges add <strong>30–80% above base salary</strong> at full load. <span class="badge badge-reported">Reported</span></li>
+          <li><strong>Overtime norms:</strong> weekdays 1.5×, Sundays and public holidays 2×; bake the multipliers into event pricing. <span class="badge badge-reported">Reported</span></li>
+          <li><strong>Floor references:</strong> casual daily labor ≈ ₦4,500/day (2026 guard benchmark); PayScale implies ≈ ₦16,000–17,000 per 8-hour day for a bare kitchen chef. A skilled dispatched cook prices well above both. <span class="badge badge-reported">Reported</span></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Take-rate benchmark</h3>
+        <p>Urban Company, the world's reference hyperlocal services platform, charges a <strong>20–25% commission per booking</strong>. <span class="badge badge-reported">Reported</span></p>
+        <p>Because POF is the employer (not a commission marketplace), the equivalent is the gross margin between the customer price and the fully-loaded cook cost. Target <strong>25–40%</strong> after cook pay, transport, and statutory load.</p>
+      </div>
+    </div>
+
+    <h3>Suggested POF starter rate card (South-South-discounted vs Lagos)</h3>
+    <p>Assumes cook pay of ₦80,000–₦150,000/month mid-tier, or ₦20,000–₦40,000/day-equivalent for event work.</p>
+    <div class="table-wrap">
+      <table>
+        <caption>Derived rate card: validate with a local wage survey before launch</caption>
+        <thead><tr><th scope="col">Product</th><th scope="col">Suggested retail</th><th scope="col">Basis</th></tr></thead>
+        <tbody>
+          <tr><td>Home cooking day visit (1 junior cook)</td><td class="money">₦25,000–₦40,000/day + transport</td><td>≈50–65% of Kimolar Lagos junior rate</td></tr>
+          <tr><td>Event cook, per cook per day</td><td class="money">₦35,000–₦60,000 + transport</td><td>Freelance event benchmark ₦30k–₦100k</td></tr>
+          <tr><td>Senior / event lead chef, per day</td><td class="money">₦60,000–₦100,000</td><td>Kimolar senior ₦80k, region-discounted</td></tr>
+          <tr><td>Monthly retainer — family of 1–3, 2–3 visits/week</td><td class="money">₦100,000–₦180,000/month</td><td>Kimolar from ₦150k, South-South adjusted</td></tr>
+          <tr><td>Monthly retainer — full-time cook</td><td class="money">₦180,000–₦350,000/month</td><td>Wage ₦100–220k + 30–80% load + margin</td></tr>
+          <tr><td>Business / canteen monthly, per cook</td><td class="money">₦200,000–₦400,000/month</td><td>Mid-tier wage + full load + margin</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ WORKER PROTECTION ============================ -->
+<section class="block alt" id="protection">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-num">Safeguards</span>
+      <h2>Protecting your cooks — scope agreements &amp; overage charges</h2>
+      <p>POF's plan (fix headcount and food quantity before the job, charge for breaches) is standard practice in catering and staffing. Seven concrete mechanisms, each with precedent.</p>
+    </div>
+    <ul class="checklist">
+      <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+        <div><strong>Minimum-guarantee headcount.</strong> Gary's Catering requires the final guest count 10 days before an event; it becomes a minimum guarantee that <em>cannot be lowered afterward</em>. <span class="badge badge-verified">Verified</span> POF version: guest count, menu, and quantity lock at booking confirmation; changes only via in-app re-quote.</div></li>
+      <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+        <div><strong>Overage counting and billing.</strong> The caterer counts actual attendance and bills in full for guests above the guarantee. <span class="badge badge-verified">Verified</span> POF version: the dispatched cook logs actuals in the app; overage auto-bills at a premium rate (1.25–1.5× per head); the premium is the deterrent.</div></li>
+      <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+        <div><strong>Deposit + balance structure.</strong> Industry template: 25% deposit at booking, balance due 5 days pre-event; cancellation within 7 days owes the full balance; deposits non-refundable after 30 days. <span class="badge badge-reported">Reported</span> This protects committed labor.</div></li>
+      <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+        <div><strong>Job-duty lock.</strong> Staffing agreements bar clients from changing a dispatched worker's duties without agency consent, and require a safe worksite; ASA model agreements allocate site-safety training, protective equipment, and injury recordkeeping between agency and client. <span class="badge badge-verified">Verified</span> POF version: the booking lists exactly what the cook will do: "also wash the house" or "cook for 20 more people" requires a paid in-app change order.</div></li>
+      <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+        <div><strong>Overtime multipliers.</strong> Weekday overtime 1.5×, Sundays/holidays 2×, applied automatically by the pricing engine when a job runs past booked hours. <span class="badge badge-reported">Reported</span></div></li>
+      <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+        <div><strong>Liability allocation.</strong> Staffing agreements use indemnification clauses assigning each risk to the party that controls it, backed by workers' compensation. <span class="badge badge-reported">Reported</span> Pair with NSITF coverage (<a href="#legal">Section 07</a>) for injuries.</div></li>
+      <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+        <div><strong>In-app incident reporting.</strong> Give cooks a panic/incident button and a post-job condition report; repeated customer violations trigger account suspension. (POF implementation recommendation building on the verified mechanisms above.)</div></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================ ANTI-POACHING ============================ -->
+<section class="block" id="antipoaching">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-num">Retention Strategy</span>
+      <h2>Anti-disintermediation — stopping customers from poaching cooks</h2>
+      <p>The sharpest strategic question, answered in three layers. The headline from peer-reviewed research (Hagiu &amp; Wright, <em>Management Science</em>): policing alone fails; value bundling wins, contracts are the backstop, product mechanics close the gaps.</p>
+    </div>
+
+    <div class="callout danger">
+      <h4>Expect poaching as a structural feature, not an anomaly</h4>
+      <p>Leakage risk is <em>highest</em> exactly in POF's category: repeat transactions between the same counterparties, in-person delivery, scope negotiated face-to-face. <span class="badge badge-verified">Verified</span> Homejoy collapsed partly because its best cleaners left once they had amassed regular customers — anti-leakage design must be built in from launch, because early low leakage breeds complacency. <span class="badge badge-reported">Reported</span></p>
+    </div>
+
+    <div class="layer">
+      <div class="layer-head">
+        <div><span class="tag">Layer 1 — The main defense</span><h3>Make the bundle worth more than the cook alone</h3></div>
+      </div>
+      <div class="layer-body">
+        <p>The first and main anti-leakage priority is investing in transaction benefits beyond discovery: escrow, insurance, payment facilities, guarantees. <span class="badge badge-verified">Verified</span> Platforms retain users by bundling trust features people forfeit when going direct (Turo's $750k insurance is the canonical example). <span class="badge badge-verified">Verified</span></p>
+        <p><strong>What POF bundles so a poached cook delivers less alone</strong> — the mechanism behind the outcome POF predicted ("what the cook delivers will not be the same"):</p>
+        <ul>
+          <li><strong>Ingredient sourcing &amp; quality control</strong>: POF supplies or verifies ingredients at agency rates; a direct-hired cook loses the supply chain.</li>
+          <li><strong>Replacement guarantee</strong>: cook sick? POF dispatches a substitute same-day. A direct hire has no backup.</li>
+          <li><strong>Team scaling</strong>: events need 2–5 coordinated cooks; only the agency can assemble the team.</li>
+          <li><strong>Escrow &amp; dispute resolution</strong>: the customer's money is protected; direct cash deals aren't.</li>
+          <li><strong>Insurance / NSITF coverage</strong>: injury or property damage is carried by the agency.</li>
+          <li><strong>Standardized recipes, menus, and QC inspections</strong>: the agency playbook, not the individual's.</li>
+          <li><strong>Ratings history</strong>: cooks forfeit earned reputation (and the bookings it drives) by leaving; customers forfeit vetted-cook access. <span class="badge badge-reported">Reported</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="layer">
+      <div class="layer-head">
+        <div><span class="tag">Layer 2 — The backstop</span><h3>Contracts: non-solicitation and buyout fees</h3></div>
+      </div>
+      <div class="layer-body">
+        <ul>
+          <li><strong>Client-side:</strong> every client signs a services agreement with a non-solicitation clause barring direct hire of POF cooks <span class="badge badge-reported">Reported · standard staffing practice</span>, plus a <strong>conversion/buyout fee</strong> for permanent hires. Industry norms: ≈10% of the worker's annual salary, or sliding-scale fees that shrink with tenure and are often waived after 520–1,040 assignment hours (≈3–6 months full-time). <span class="badge badge-verified">Verified</span> The ASA defends these fees as recovering recruitment and onboarding investment. <span class="badge badge-verified">Verified</span></li>
+          <li><strong>POF version:</strong> "Hire your cook permanently for a one-time fee of 1–1.5× their monthly salary; waived after 12 months of bookings."</li>
+          <li><strong>Cook-side:</strong> the employment agreement includes a non-solicitation clause barring the cook from becoming a client's direct hire without POF approval. <span class="badge badge-reported">Reported</span></li>
+        </ul>
+        <div class="callout warn">
+          <h4>Nigerian enforceability limits: critical drafting constraints</h4>
+          <ul>
+            <li>Restraint-of-trade covenants are <strong>presumptively unenforceable</strong> in Nigeria; courts enforce them only if reasonable in business scope, geography, and duration. <span class="badge badge-reported">Reported · ICLG / Jackson Etti &amp; Edu</span></li>
+            <li>The FCCPA caps enforceable restraints at <strong>2 years maximum</strong>. <span class="badge badge-reported">Reported</span></li>
+            <li>Courts favor covenants where the worker <strong>received consideration</strong> — pair clauses with a retention bonus or benefits. <span class="badge badge-reported">Reported</span></li>
+            <li>You cannot stop a former cook from using cooking skills learned on the job; you need a protectable interest (client lists, recipes, confidential pricing) and narrow scope. <span class="badge badge-reported">Reported</span></li>
+            <li><strong>The shape that survives:</strong> 12–24 months, POF's four cities only, limited to clients the cook actually served through POF. A blanket "never cook for anyone" clause dies in court.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="layer">
+      <div class="layer-head">
+        <div><span class="tag">Layer 3 — The product</span><h3>Mechanics that keep transactions in the app</h3></div>
+      </div>
+      <div class="layer-body">
+        <ul>
+          <li><strong>All payments through the app</strong>: no cash to cooks (Chef4Me operates this way). <span class="badge badge-reported">Reported</span></li>
+          <li><strong>Escrow:</strong> hold the customer's payment; release to the cook's wallet only after completion confirmation. <span class="badge badge-verified">Verified · recommended mechanism</span></li>
+          <li><strong>Contact masking:</strong> in-app chat with masked phone numbers; flag trigger words ("call me", "WhatsApp", digit strings) for review. <span class="badge badge-reported">Reported</span> Use it lightly; heavy-handed policing (commission nags, ban threats, contact blocking) has limited effectiveness and can backfire (the Airbnb/BlaBlaCar experience). <span class="badge badge-verified">Verified</span></li>
+          <li><strong>Accept some leakage.</strong> The profit-maximizing platform always tolerates partial leakage; eliminating it entirely costs more than it saves. Price the take rate expecting some direct deals. <span class="badge badge-verified">Verified</span></li>
+          <li><strong>Loyalty economics:</strong> discount the 10th booking, pay cook tenure bonuses, and let both sides accumulate visible ratings capital they would lose by leaving. <span class="badge badge-reported">Reported</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ LEGAL ============================ -->
+<section class="block alt" id="legal">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-num">Compliance</span>
+      <h2>Nigerian legal &amp; regulatory checklist</h2>
+      <p>Complete these <strong>before</strong> taking bookings. Employing cooks and supplying them to third parties is a licensed activity in Nigeria.</p>
+    </div>
+    <div class="flow">
+      <div class="flow-step">
+        <div>
+          <h4>Recruiter's Licence (labour contractor category) <span class="badge badge-verified">Verified · nelex.gov.ng</span></h4>
+          <p>Any company that employs workers to make them available to a third party needs a Recruiter's Licence from the Federal Ministry of Labour and Employment under the Labour Act CAP L1 2004 (ss. 23, 24, 25, 71, 88(e,f,g)). Fresh domestic licence: ₦5,000 application + ₦200,000 fee, valid 2 years; renewal ₦100,000/1yr or ₦200,000/3yrs. Apply via the NELEX portal (~2 weeks with complete documents). Requirements include incorporation certificate, insurance bond (₦1.5M–₦5M by sector/headcount), PFA registration, NSITF registration, health insurance evidence, employee contracts, an employee handbook, training policies, and ITF registration. Violations range from reprimand to licence withdrawal and prosecution.</p>
+        </div>
+      </div>
+      <div class="flow-step">
+        <div>
+          <h4>NSITF · Employee Compensation Act <span class="badge badge-reported">Reported</span></h4>
+          <p>Every employer with ≥1 employee must register and contribute 1% of total monthly payroll. Coverage extends to casual and contract workers; per-day dispatched cooks are covered. Non-compliance blocks the compliance certificate needed for government and corporate contracts, which matters when POF pursues corporate canteen clients.</p>
+        </div>
+      </div>
+      <div class="flow-step">
+        <div>
+          <h4>Pension · PRA 2014 <span class="badge badge-reported">Reported</span></h4>
+          <p>Obligations attach to casual workers once employed 3+ months, or when repeated short contracts add up to continuous service. A standing cook pool crosses this threshold quickly; budget pension contributions from the start.</p>
+        </div>
+      </div>
+      <div class="flow-step">
+        <div>
+          <h4>PAYE remittance <span class="badge badge-reported">Reported</span></h4>
+          <p>The agency, as employer, deducts and remits income tax for cooks once annualized income crosses the personal relief threshold; this duty sits with POF, never the client.</p>
+        </div>
+      </div>
+      <div class="flow-step">
+        <div>
+          <h4>Written employment contracts <span class="badge badge-reported">Reported</span></h4>
+          <p>Labour Act s.7 requires a written contract within 3 months of starting work. Cooks performing manual labour are "workers" entitled to the Act's statutory minimum protections.</p>
+        </div>
+      </div>
+      <div class="flow-step">
+        <div>
+          <h4>Watch item: NSITF successor bill <span class="badge badge-reported">Reported</span></h4>
+          <p>The NSITF Act is slated for replacement by a Nigeria Social Security Trust Fund Bill (expected 2026) establishing a comprehensive compensation regime for work-related death, injury, disease, or disability. Track it.</p>
+        </div>
+      </div>
+    </div>
+    <div class="callout">
+      <h4>Setup capital estimate</h4>
+      <p>Budget roughly <strong>₦2M–₦5.5M</strong> for licence + insurance bond + registrations before payroll begins. This is front-loaded, unavoidable, and the licence is also a marketing asset: "a licensed labour contractor" is a trust signal none of the informal competition can claim.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ APP PLAYBOOK ============================ -->
+<section class="block" id="app">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-num">Product</span>
+      <h2>App implementation playbook</h2>
+      <p>How the cook's agency lives inside Pot of Food: booking flow, pricing engine, dispatch, escrow, and ratings, modeled on the Urban Company pattern and Chef4Me's vetting stack.</p>
+    </div>
+
+    <h3>The customer booking flow</h3>
+    <div class="flow">
+      <div class="flow-step"><div><h4>Choose a service</h4><p>Home day-cook · Event cooking · Business/canteen · Monthly retainer.</p></div></div>
+      <div class="flow-step"><div><h4>Complete the scope form (the abuse-prevention contract, digitized)</h4><p>Guests/staff to feed, menu, food quantity, venue, kitchen facilities, hours, number of cooks. For large events: an optional paid pre-visit (Kimolar charges ₦5k virtual to ₦30k in-home, 50% credited toward service). <span class="badge badge-reported">Reported</span></p></div></div>
+      <div class="flow-step"><div><h4>Instant quote from the pricing engine</h4><p>Tier × cooks × days + zone transport + overtime rules; retainers priced on the two-axis grid (household size × visit frequency × tier). <span class="badge badge-verified">Verified basis</span></p></div></div>
+      <div class="flow-step"><div><h4>Accept digital terms</h4><p>Minimum-guarantee scope, overage rates, cancellation tiers, non-solicitation + buyout clause — one tap, legally binding, stored per booking.</p></div></div>
+      <div class="flow-step"><div><h4>Pay deposit into escrow</h4><p>25–50% deposit at booking; balance auto-charged before dispatch (5 days ahead for events). <span class="badge badge-reported">Reported basis</span></p></div></div>
+      <div class="flow-step"><div><h4>Auto-assignment engine dispatches cooks</h4><p>Matches by zone, skill tier, availability, credential status, and quality score: the Urban Company pattern. <span class="badge badge-reported">Reported</span></p></div></div>
+      <div class="flow-step"><div><h4>Job day: check-in, actuals, change orders</h4><p>Cook checks in (GPS/time-stamped), logs actual headcount and quantities, and any scope change becomes an in-app change order the customer approves and pays on the spot.</p></div></div>
+      <div class="flow-step"><div><h4>Completion: release, rate, repeat</h4><p>Customer confirms → escrow releases to the cook's wallet → both sides rate each other on dimensions (food quality, punctuality, professionalism / customer conduct).</p></div></div>
+    </div>
+
+    <div class="grid cols-2">
+      <div class="card">
+        <h3>Cook-side app</h3>
+        <ul>
+          <li><strong>Credential onboarding:</strong> document upload, background check, food-safety certification, training gate, supervised trial period — Chef4Me's full vetting stack. <span class="badge badge-reported">Reported</span></li>
+          <li><strong>Earnings dashboard + one-tap acceptance:</strong> platforms with high earnings visibility and low acceptance friction retain 40–60% more supply in the first 90 days. <span class="badge badge-reported">Reported</span></li>
+          <li><strong>Job checklists</strong> with photo documentation; incident/panic reporting.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Platform mechanics</h3>
+        <ul>
+          <li>All payments in-app; wallet payouts; no cash.</li>
+          <li>Contact masking in chat with trigger-word flagging — applied gently (<a href="#antipoaching">Layer 3</a>).</li>
+          <li>Ratings as lock-in capital for both sides.</li>
+          <li><strong>Build cost benchmark:</strong> an Urban Company-style MVP runs $45k–$90k over 24–32 weeks (full build $90k–$150k); riding inside the existing POF app, a lean booking + pricing + dispatch module comes in far below that. <span class="badge badge-reported">Reported</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ ROLLOUT ============================ -->
+<section class="block alt" id="rollout">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-num">Roadmap</span>
+      <h2>Phased rollout plan</h2>
+      <p>Legal first, one city second, engine third, scale fourth. Each phase gates the next.</p>
+    </div>
+    <div class="timeline">
+      <div class="tl-item">
+        <span class="phase-tag">Phase 0 — Compliance foundation</span>
+        <h3>License and register before anything else</h3>
+        <ul>
+          <li>Incorporate / verify the entity → NELEX Recruiter's Licence application</li>
+          <li>NSITF, PFA (pension), and ITF registrations; insurance bond</li>
+          <li>Contract templates: client services agreement + cook employment agreement with a narrow, 2-year-max non-solicitation clause paired with consideration</li>
+        </ul>
+      </div>
+      <div class="tl-item">
+        <span class="phase-tag">Phase 1 — Prove it in one city</span>
+        <h3>Benin City pilot</h3>
+        <ul>
+          <li>Benin City has the region's clearest demand signal: iKooK already lists an Edo chef at ₦6,000/person</li>
+          <li>4–6 cooks in 2 tiers (junior + senior/event lead); manual dispatch behind a simple in-app booking form</li>
+          <li>Validate the rate card against real willingness-to-pay; run a local cook wage survey in parallel</li>
+        </ul>
+      </div>
+      <div class="tl-item">
+        <span class="phase-tag">Phase 2 — Build the engine</span>
+        <h3>Automate and expand to Delta</h3>
+        <ul>
+          <li>Pricing engine, escrow, ratings, and auto-assignment go live</li>
+          <li>Add Warri and Asaba; recruit and train the second cook cohort</li>
+        </ul>
+      </div>
+      <div class="tl-item">
+        <span class="phase-tag">Phase 3 — Scale the bundle</span>
+        <h3>Retainers, businesses, and Bayelsa</h3>
+        <ul>
+          <li>Monthly retainers for businesses: canteens and oil-adjacent demand in Warri</li>
+          <li>Ingredient-sourcing bundle launches (the strongest anti-poaching moat)</li>
+          <li>Yenagoa entry completes the four-city footprint</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ RISKS ============================ -->
+<section class="block" id="risks">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-num">Caveats</span>
+      <h2>Risks &amp; caveats</h2>
+      <p>What the evidence does not support, where the data is thin, and what can sink the launch.</p>
+    </div>
+    <div class="grid cols-2">
+      <div class="card">
+        <h3>Refuted during verification</h3>
+        <p>The claim that Dominion Consulting operates in Warri and Benin City failed adversarial verification 0-3. <span class="badge badge-refuted">Refuted</span> Do not assume incumbent presence there; equally, do not assume proven demand. Run cheap demand tests (a waitlist inside POF, event-caterer partnerships) before hiring the full pool.</p>
+      </div>
+      <div class="card">
+        <h3>Wage data is thin for these cities</h3>
+        <p>Every salary source is Lagos-skewed or small-sample (Glassdoor: 27 profiles; PayScale: 6, stale since 2022; Mywage 2021 pre-devaluation figures refuted). Run a 2-week local survey — ask 20–30 cooks in Benin City and Warri their day and monthly rates — before finalizing the rate card.</p>
+      </div>
+      <div class="card">
+        <h3>Naira volatility</h3>
+        <p>All ₦ figures are 2025–26 and will drift. Index the rate card quarterly and build repricing into retainer contracts.</p>
+      </div>
+      <div class="card">
+        <h3>Compliance is front-loaded</h3>
+        <p>The licence + bond (≈₦2M–₦5.5M) is real money before revenue. Skipping it invites prosecution and licence-based shutdown once the business is visible, and visibility is the point of an app.</p>
+      </div>
+      <div class="card">
+        <h3>Leakage cannot be zeroed</h3>
+        <p>The verified economics finding: optimal platforms tolerate partial leakage. <span class="badge badge-verified">Verified</span> Measure it (repeat-customer booking decay per cook) and manage it; don't chase it to zero.</p>
+      </div>
+      <div class="card">
+        <h3>Employment cost discipline</h3>
+        <p>As employer of record, POF carries payroll through demand troughs. Start with 4–6 cooks, use a bench of vetted on-call cooks for event spikes, and only convert to full-time as retainer revenue locks in.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ SOURCES ============================ -->
+<section class="block alt" id="sources">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-num">Evidence</span>
+      <h2>Sources</h2>
+      <p>26 sources were fetched and analyzed; the 20 that contributed claims to this report are listed here. Primary sources were quoted directly during verification.</p>
+    </div>
+    <div class="sources-grid">
+      <a class="source-item" href="https://www.ikook.co.uk/ng" target="_blank" rel="noopener">
+        <span class="src-name">iKooK Nigeria</span>
+        <span class="src-desc">Primary · competitor marketplace, per-person pricing, Edo supply</span>
+        <span class="src-url">ikook.co.uk/ng</span>
+      </a>
+      <a class="source-item" href="https://www.kimolar.com/services/lagoschef" target="_blank" rel="noopener">
+        <span class="src-name">Kimolar — Lagos Private Chef Rates</span>
+        <span class="src-desc">Primary · verified day-rate and monthly retainer rate card</span>
+        <span class="src-url">kimolar.com/services/lagoschef</span>
+      </a>
+      <a class="source-item" href="https://workmate.com.ng/hirechefcook.php" target="_blank" rel="noopener">
+        <span class="src-name">Workmate — Hire Chef/Cook</span>
+        <span class="src-desc">Primary · placement model, salary benchmarks, coverage cities</span>
+        <span class="src-url">workmate.com.ng/hirechefcook.php</span>
+      </a>
+      <a class="source-item" href="https://techpoint.africa/brandpress/chef4me-unveils-a-smarter-culinary-marketplace-for-nigerians/" target="_blank" rel="noopener">
+        <span class="src-name">Techpoint Africa — Chef4Me launch</span>
+        <span class="src-desc">Competitor model, vetting stack, payment routing</span>
+        <span class="src-url">techpoint.africa</span>
+      </a>
+      <a class="source-item" href="https://www.profolio.ng/chef/salary-guide" target="_blank" rel="noopener">
+        <span class="src-name">Profolio — Nigerian Chef Salary Guide</span>
+        <span class="src-desc">Wage tiers, event rates, city variance, benefits load</span>
+        <span class="src-url">profolio.ng/chef/salary-guide</span>
+      </a>
+      <a class="source-item" href="https://nelex.gov.ng/recruiters-license" target="_blank" rel="noopener">
+        <span class="src-name">NELEX — Recruiter's Licence</span>
+        <span class="src-desc">Primary (government) · licensing categories, fees, requirements</span>
+        <span class="src-url">nelex.gov.ng/recruiters-license</span>
+      </a>
+      <a class="source-item" href="https://www.mondaq.com/nigeria/recruiting/897538/recruiters-license-nigeria" target="_blank" rel="noopener">
+        <span class="src-name">Mondaq — Recruiter's License Nigeria</span>
+        <span class="src-desc">Labour contractor vs employment agency categories; bond ranges</span>
+        <span class="src-url">mondaq.com</span>
+      </a>
+      <a class="source-item" href="https://iclg.com/practice-areas/employment-and-labour-laws-and-regulations/nigeria/" target="_blank" rel="noopener">
+        <span class="src-name">ICLG — Nigeria Employment &amp; Labour Law 2026</span>
+        <span class="src-desc">Restrictive covenant enforceability, FCCPA 2-year cap, Labour Act s.7</span>
+        <span class="src-url">iclg.com</span>
+      </a>
+      <a class="source-item" href="https://jee.africa/insights/restrictive-clauses-in-employment-contracts-navigating-the-thorny-landscape-for-employers" target="_blank" rel="noopener">
+        <span class="src-name">Jackson Etti &amp; Edu — Restrictive Clauses</span>
+        <span class="src-desc">Restraint-of-trade reasonableness test in Nigerian employment law</span>
+        <span class="src-url">jee.africa</span>
+      </a>
+      <a class="source-item" href="https://blog.myeazipay.com/2026/05/11/casual-worker-payroll-nigeria/" target="_blank" rel="noopener">
+        <span class="src-name">Eazipay — Casual Worker Payroll Nigeria</span>
+        <span class="src-desc">Pension after 3 months, PAYE thresholds, overtime norms, day-rate floors</span>
+        <span class="src-url">blog.myeazipay.com</span>
+      </a>
+      <a class="source-item" href="https://sowprofessional.com/nsitf-compliance-complete-guide/" target="_blank" rel="noopener">
+        <span class="src-name">SOW Professional — NSITF Compliance Guide</span>
+        <span class="src-desc">1% payroll contribution, casual-worker coverage, compliance certificate</span>
+        <span class="src-url">sowprofessional.com</span>
+      </a>
+      <a class="source-item" href="https://americanstaffing.net/asa-policy-agenda/" target="_blank" rel="noopener">
+        <span class="src-name">American Staffing Association — Policy Agenda</span>
+        <span class="src-desc">Primary · employer-of-record model, conversion fees, safety allocation</span>
+        <span class="src-url">americanstaffing.net</span>
+      </a>
+      <a class="source-item" href="https://www.crelate.com/blog/staffing-transition-permanent-role" target="_blank" rel="noopener">
+        <span class="src-name">Crelate — Temp-to-Perm Transitions</span>
+        <span class="src-desc">Conversion fee structures: percentage, flat, prorated</span>
+        <span class="src-url">crelate.com</span>
+      </a>
+      <a class="source-item" href="https://www.activatedscale.com/blog/temp-to-perm-fee-structure-staffing-transition" target="_blank" rel="noopener">
+        <span class="src-name">ActivatedScale — Temp-to-Perm Fee Structure</span>
+        <span class="src-desc">Buyout fee norms (~10% annual salary), 520–1,040 hour waivers</span>
+        <span class="src-url">activatedscale.com</span>
+      </a>
+      <a class="source-item" href="https://www.contractscounsel.com/t/us/staffing-services-agreement" target="_blank" rel="noopener">
+        <span class="src-name">ContractsCounsel — Staffing Services Agreements</span>
+        <span class="src-desc">Non-solicitation clauses, billing cycles, indemnification</span>
+        <span class="src-url">contractscounsel.com</span>
+      </a>
+      <a class="source-item" href="https://www.usastaffingservices.com/temporary-staffing-agreement-checklist/" target="_blank" rel="noopener">
+        <span class="src-name">USA Staffing Services — Agreement Checklist</span>
+        <span class="src-desc">Co-employment duty allocation, workers' comp, commercial terms</span>
+        <span class="src-url">usastaffingservices.com</span>
+      </a>
+      <a class="source-item" href="https://www.garyscatering.com/catering-services-wedding-corporate-caterers-terms-and-conditions.php" target="_blank" rel="noopener">
+        <span class="src-name">Gary's Catering — Terms &amp; Conditions</span>
+        <span class="src-desc">Primary · headcount guarantee, overage billing, deposits, cancellation tiers</span>
+        <span class="src-url">garyscatering.com</span>
+      </a>
+      <a class="source-item" href="https://andreihagiu.com/wp-content/uploads/2023/03/MS-Leakage-Final.pdf" target="_blank" rel="noopener">
+        <span class="src-name">Hagiu &amp; Wright — "Marketplace Leakage" (Management Science)</span>
+        <span class="src-desc">Primary (peer-reviewed) · verified anti-disintermediation economics</span>
+        <span class="src-url">andreihagiu.com (PDF)</span>
+      </a>
+      <a class="source-item" href="https://www.sharetribe.com/academy/how-to-discourage-people-from-going-around-your-payment-system/" target="_blank" rel="noopener">
+        <span class="src-name">Sharetribe — Preventing Payment Circumvention</span>
+        <span class="src-desc">Escrow, insurance, fee-below-value, reputation lock-in tactics</span>
+        <span class="src-url">sharetribe.com/academy</span>
+      </a>
+      <a class="source-item" href="https://www.marketbase.app/marketplace-insights/combatting-disintermediation" target="_blank" rel="noopener">
+        <span class="src-name">MarketBase — Combatting Disintermediation</span>
+        <span class="src-desc">Contact masking, trigger words, trust bundling, Rover/Uber cases</span>
+        <span class="src-url">marketbase.app</span>
+      </a>
+      <a class="source-item" href="https://www.raftlabs.com/blog/how-to-build-app-like-urban-company" target="_blank" rel="noopener">
+        <span class="src-name">RaftLabs — Building an Urban Company-Style App</span>
+        <span class="src-desc">Auto-assignment engine, provider retention, MVP costs, take rates</span>
+        <span class="src-url">raftlabs.com</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container foot-grid">
+    <div>
+      <strong>POF Cook's Agency — Research Report &amp; Implementation Playbook</strong><br>
+      Deep research synthesized July 2026 · 26 sources · 122 claims · 22 adversarially verified
+    </div>
+    <div>
+      Built for the Pot of Food app · Benin City · Warri · Asaba · Yenagoa
+    </div>
+  </div>
+</footer>
+
+<button class="back-top" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+
+<script src="script.js" defer></script>
+</body>
+</html>
