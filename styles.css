@@ -1,5 +1,5 @@
 /* ============ POF Cook's Agency — Trust & Authority design system ============ */
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,500;0,600;0,700;0,800;1,500&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
 
 :root {
   --primary: #0f172a;
@@ -27,8 +27,8 @@
   --radius: 12px;
   --radius-lg: 18px;
   --maxw: 1120px;
-  --font-head: 'Bricolage Grotesque', system-ui, -apple-system, sans-serif;
-  --font-body: 'Instrument Sans', system-ui, -apple-system, sans-serif;
+  --font-head: 'Besley', Georgia, 'Times New Roman', serif;
+  --font-body: 'Public Sans', system-ui, -apple-system, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -121,8 +121,9 @@ strong { font-weight: 700; }
     position: fixed; inset: 60px 0 auto 0; background: var(--surface);
     flex-direction: column; padding: 10px 18px 18px; gap: 4px;
     border-bottom: 1px solid var(--border); box-shadow: var(--shadow-lg);
-    transform: translateY(-130%); transition: transform .25s ease-out;
+    transform: translateY(-130%);
   }
+  .primary-nav.animate { transition: transform .25s ease-out; }
   .primary-nav.open { transform: translateY(0); }
   .primary-nav a { padding: 13px 14px; font-size: 1rem; border-radius: 10px; }
   .nav-toggle {

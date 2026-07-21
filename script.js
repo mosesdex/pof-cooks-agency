@@ -6,6 +6,7 @@
   var nav = document.getElementById('primaryNav');
   if (toggle && nav) {
     toggle.addEventListener('click', function () {
+      nav.classList.add('animate');
       var open = nav.classList.toggle('open');
       toggle.setAttribute('aria-expanded', String(open));
     });
